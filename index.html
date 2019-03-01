@@ -1,0 +1,59 @@
+<html>
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta charset=utf-8>
+    <link rel="stylesheet" href=style.css>
+    <head>
+        <title>
+            WhatsApp Click-To-Chat
+        </title>
+    </head>
+
+    <body>
+        <h1>WhatsApp Click-To-Chat v4</h1>
+        <h3>Enter the mobile number in International Format, without any zeroes, brackets or dashes</h3>
+
+        <input id="url" type = "text" placeholder = "Enter Phone Number" autofocus>
+
+        <input id="chkbx" type="checkbox" onclick="disen(this.checked)">
+        <label for="chkbx">Add Message</label>
+
+        <textarea id="msgbox" rows="4" placeholder="Enter Message" disabled></textarea>
+
+        <button class="submit" onclick="redirect()">Click-To-Chat</button>
+
+        <h4>What is Click to Chat?</h4>
+        <p>
+            WhatsApp's Click to Chat feature allows you to begin a chat with someone without having their phone number saved in 
+            your phone's address book. As long as you know this person’s phone number, you can create a link that will allow you to start 
+            a chat with them. By clicking the link, a chat with the person automatically opens. 
+            Click to Chat works on both your phone and WhatsApp Web.<br>
+            For a detailed explanation on international numbers, read <a href="https://faq.whatsapp.com/en/general/21016748" target="_blank"> this article</a>.
+        </p>
+        <h4>How to Use</h4>
+        <p>
+            1. Enter the phone number of the recipient in International Format.<br>
+            2. If you don't want to include a message, skip to point 5.<br>
+            3. If you want to include a message, check the Add Message checkbox.<br>
+            4. Enter the message you want to send.<br>
+            5. Click on "Click-To-Chat" button.<br>
+            6. When asked if you want to be redirected, select 'Ok' or 'Yes'.<br>
+        </p>
+        <h4>Am I being Recorded?</h4>
+        <p>
+            Absolutely not. However you are free to check the code itself from <a href="https://github.com/1bl4z3r/Click-To-Chat" target="_blank">HERE</a>.
+            I did it because I wanted to.
+        </p>
+        <h4>More from Me</h4>
+        <p>
+            1. Look into my <a href="https://github.com/1bl4z3r/" target="_blank">GitHub Repositories</a>.<br>
+            2. Have a read through my blog at <a href="https://nopurposeclub.wordpress.com/author/1bl4z3r/" target="_blank">No Purpose Club</a>.<br>
+            3. Have a listen to the podcast I co-host <a href="https://anchor.fm/2pointsomeone" target="_blank">2.Someone</a>
+        </p>
+        <footer>
+            <p>By: Ristik Majumdar (1bl4z3r) With &hearts; and privacy<br>
+                GNU General Public License v3.0</p>
+        </footer>
+        <script src="driver.js"></script>
+    </body>
+</html>
