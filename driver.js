@@ -15,7 +15,8 @@ function redirect()
                 var message = '';
             }
             var wpurl = "https://api.whatsapp.com/send?phone=" + num + "&text=" + message;
-            if (window.confirm('Do you wish to be redirected?')) 
+            var showurl = "https://wa.me/" + num;
+            if (window.confirm('Do you wish to be redirected?\nYour Link is: ' + showurl)) 
                 {
                  window.open(wpurl,'_blank');
                 }
